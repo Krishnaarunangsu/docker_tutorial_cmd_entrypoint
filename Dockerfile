@@ -7,4 +7,9 @@ RUN rm -rf /var/lib/apt/lists/*
 # CMD ab
 
 # Exec form
-CMD ["ab"]    
+# CMD ["ab"] 
+
+
+ENTRYPOINT ["ab"]
+
+
